@@ -1,0 +1,90 @@
+#barraNav{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    background-color: rgb(172, 212, 174);
+}
+
+header img{
+    width: 15%;
+    height: 150px;
+}
+
+.barra{
+    display: grid;
+    width: 90%;
+    align-items: center;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    grid-template-columns: 1fr;
+    /*gap: 5px;*/
+    height: 100%;
+}
+
+header nav ul li{
+    display: grid;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 300ms;
+}
+
+a:hover{
+    background-color: aquamarine;
+    height: 110%;
+    box-shadow:  0 0 10px;
+    
+}
+
+.active{
+    background-color: blueviolet;
+}
+
+#inicio{
+    background-size: 110% 110%;
+    background-position: center;
+    background-image: url(https://concepto.de/wp-content/uploads/2013/08/matematicas-e1551990322160-800x399.jpg);
+}
+
+#polinomios{
+    background-size: 110% 110%;
+    background-position: center;
+    background-image: url(https://totumat.files.wordpress.com/2019/11/1-15-polinomios.png?w=810);
+}
+#ecuaciones{
+    background-size: 110% 110%;
+    background-position: center;
+    background-image: url(https://totumat.files.wordpress.com/2019/11/1-12-ecuaciones-lineales.png?w=810);
+}
+
+@media (orientation: portrait) and (max-width: 600px){
+    .barra ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barra ul li{
+        height: 100%;
+    }
+
+    header img{
+        width: 30%;
+    }
+
+
+
+
+}
