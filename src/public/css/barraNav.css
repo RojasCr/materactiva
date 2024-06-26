@@ -4,7 +4,7 @@
     z-index: 2;
     width: 100%;
     display: flex;
-    background-color: rgb(172, 212, 174);
+    
 }
 
 header img{
@@ -43,7 +43,7 @@ a{
 }
 
 a:hover{
-    background-color: aquamarine;
+    
     height: 110%;
     box-shadow:  0 0 10px;
     
@@ -54,27 +54,27 @@ a:hover{
 }
 
 #inicio{
-    background-size: 110% 110%;
-    background-position: center;
-    background-image: url(https://concepto.de/wp-content/uploads/2013/08/matematicas-e1551990322160-800x399.jpg);
+    /* background-size: 110% 110%;
+    background-position: center; */
+    /* background-image: url(https://concepto.de/wp-content/uploads/2013/08/matematicas-e1551990322160-800x399.jpg); */
 }
 
 #polinomios{
-    background-size: 110% 110%;
+    /* background-size: 110% 110%;
     background-position: center;
-    background-image: url(https://totumat.files.wordpress.com/2019/11/1-15-polinomios.png?w=810);
+    background-image: url(https://totumat.files.wordpress.com/2019/11/1-15-polinomios.png?w=810); */
 }
 
 #ecuaciones{
-    background-size: 110% 110%;
+    /* background-size: 110% 110%;
     background-position: center;
-    background-image: url(https://totumat.files.wordpress.com/2019/11/1-12-ecuaciones-lineales.png?w=810);
+    background-image: url(https://totumat.files.wordpress.com/2019/11/1-12-ecuaciones-lineales.png?w=810); */
 }
 
 #radicales{
-    background-size: 110% 110%;
+    /* background-size: 110% 110%;
     background-position: center;
-    background-image: url(https://totumat.com/wp-content/uploads/2020/05/0-13-radicales.png?w=810);
+    background-image: url(https://totumat.com/wp-content/uploads/2020/05/0-13-radicales.png?w=810); */
 }
 
 @media (orientation: portrait) and (max-width: 600px){
