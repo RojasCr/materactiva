@@ -1,3 +1,5 @@
+const ejercicio1 = document.getElementsByClassName("ejercicios")[0];
+
 //Creación de polinomios
 const p = new Polinomio();
 const q = new Polinomio();
@@ -7,18 +9,18 @@ const generar1 = () => {
     let lista = `<ol>
                     <li>
                         <div class="contenedorPoli">
-                            <div class="poli">${p.crear(1)}</div>
+                            <div class="poli">P(x) = ${p.crear(1)}</div>
                             <div class="lateral">Grado: <input id="res1"> <span id="respuesta1"></span> C.P: <input id="CP1"> <span id="resCP1"></span></div>
                         </div>
                     </li>
                     <li>
                         <div class="contenedorPoli">
-                            <div class="poli">${q.crear(2)}</div>
+                            <div class="poli">Q(x) = ${q.crear(2)}</div>
                             <div class="lateral">Grado: <input id="res2"> <span id="respuesta2"></span> C.P: <input id="CP2"> <span id="resCP2"></span></div>
                         </div>
                     </li>
                 </ol>`;
-    document.getElementById("enteros").innerHTML = lista;
+    ejercicio1.innerHTML = lista;
 }
 
 //Verificación de resultados

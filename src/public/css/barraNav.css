@@ -64,10 +64,17 @@ a:hover{
     background-position: center;
     background-image: url(https://totumat.files.wordpress.com/2019/11/1-15-polinomios.png?w=810);
 }
+
 #ecuaciones{
     background-size: 110% 110%;
     background-position: center;
     background-image: url(https://totumat.files.wordpress.com/2019/11/1-12-ecuaciones-lineales.png?w=810);
+}
+
+#radicales{
+    background-size: 110% 110%;
+    background-position: center;
+    background-image: url(https://totumat.com/wp-content/uploads/2020/05/0-13-radicales.png?w=810);
 }
 
 @media (orientation: portrait) and (max-width: 600px){
