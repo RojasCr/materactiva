@@ -26,18 +26,19 @@ html, body{
   z-index: 1;
 }
 
-main{
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  z-index: 2;
+.principal{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
 }
 
 article{
 	display: flex;
 	flex-direction: column;
 	margin: 5% 2% 2% 2%;
-	gap: 1%;
+	padding-bottom: 2%;
 }
 
 h1{
@@ -55,7 +56,6 @@ h2{
 }
 
 #polinomios{
-	background-color: aquamarine;
 	height: 110%;
 	box-shadow:  0 0 10px;
 }

@@ -3,19 +3,24 @@
     top: 0px;
     z-index: 2;
     width: 100%;
+    height: 15%;
     display: flex;
     
 }
 
-header img{
+/*header img{
     width: 15%;
     height: 150px;
-}
+}*/
 
 .barra{
-    display: grid;
-    width: 90%;
+    display: flex;
+    /* width: 90%; */
     align-items: center;
+}
+
+#logo-container{
+    display: flex;
 }
 
 header nav ul{
@@ -27,13 +32,13 @@ header nav ul{
 }
 
 header nav ul li{
-    display: grid;
+    display: flex;
     width: 100%;
 }
 
 a{
+    display: flex;
     text-decoration: none;
-    display: grid;
     justify-content: center;
     align-items: center;
     color: #000;
@@ -49,8 +54,46 @@ a:hover{
     
 }
 
+a div{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
 .active{
     background-color: blueviolet;
+}
+
+#inicio span{
+    position: absolute;
+}
+
+#logo-container{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 20%;
+}
+
+#logo{
+    height: 100%;
+    width: 100%;
+}
+
+li img{
+    width: 110%;
+    /*height: 110%;*/
+    position: relative;
+    opacity: 0.5;
+}
+
+
+li span{
+    position: absolute;
 }
 
 #inicio{
@@ -77,7 +120,7 @@ a:hover{
     background-image: url(https://totumat.com/wp-content/uploads/2020/05/0-13-radicales.png?w=810); */
 }
 
-@media (orientation: portrait) and (max-width: 600px){
+/*@media (orientation: portrait) and (max-width: 600px){
     .barra ul{
         display: flex;
         flex-direction: column;
@@ -94,4 +137,4 @@ a:hover{
 
 
 
-}
+}*/
