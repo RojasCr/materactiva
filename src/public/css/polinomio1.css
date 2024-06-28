@@ -1,7 +1,7 @@
 @font-face {
-    font-family: "Desappear";
-    src: url("../fonts/Nightmare\ Codehack.otf");
-}
+	font-family: "Crayon";
+	src: url("../fonts/Colored\ Crayons.ttf");
+  }
 
 @font-face {
     font-family: "Fortnite";
@@ -42,13 +42,14 @@ article{
 }
 
 h1{
-  	margin-bottom: 2%;
-  	text-align: center;
-  	font-family: "Desappear";
-  	font-size: 3rem;
-	color: darkorange;
-    letter-spacing: 3px;
-}
+	font-family: "Crayon";
+	font-size: 3rem;
+	text-align: center;
+	color: #ff8c00;
+	letter-spacing: 3px;
+	margin-bottom: 2%;
+	text-shadow: -3px 6px 6px black;
+  }
 
 h2{
 	font-family: "Fortnite";

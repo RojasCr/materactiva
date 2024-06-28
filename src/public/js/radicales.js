@@ -1,6 +1,6 @@
 const rad = new Radicales();
 
-const radical = document.getElementById("enteros");
+const radical = document.getElementById("ejercicios");
 
 const generar = () => {
 
