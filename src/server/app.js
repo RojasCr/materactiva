@@ -1,5 +1,5 @@
 const express = require("express");
-const compression = require("compression")
+//const compression = require("compression")
 
 const app = express();
 const port = 8080;
@@ -22,6 +22,14 @@ app.get("/ecuaciones", (req, res) => {
 
 app.get("/radicales", (req, res) => {
     res.sendFile(`${process.cwd()}/src/views/radicales.html`);
+});
+
+app.get("/sitemap.xml", (req, res) => {
+    res.sendFile(`${process.cwd()}/sitemap.xml`);
+});
+
+app.get("/robots.txt", (req, res) => {
+    res.sendFile(`${process.cwd()}/robots.txt`);
 });
 
 app.listen(port, () => {
