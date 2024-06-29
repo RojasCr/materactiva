@@ -10,17 +10,18 @@
     <link rel="stylesheet" href="css/barraNav.css">
 </head>
 <body>
-    <img src="/images/Fondo.png" alt="fondo" id="img_fondo">
+    <div id="loader">Loading...</div>
+    <img src="/images/Fondo.png" loading="lazy" alt="fondo" id="img_fondo">
     <main class="principal">
         <header id="barraNav">
             <nav class="barra">
-                <div id="logo-container"><img id="logo" src="/images/Logo.png" alt=""></div>
+                <div id="logo-container"><img id="logo" loading="lazy" src="/images/Logo.png" alt=""></div>
                 <ul>
                     <!-- <li ></li> -->
-                    <li ><a id="inicio" href="/" ><div><img src="../images/inicio.jpg" alt=""></div><span>Inicio</span></a></li>
-                    <li><a id="polinomios" href="/polinomios" ><div><img src="https://totumat.files.wordpress.com/2019/11/1-15-polinomios.png?w=810" alt=""></div><span>Polinomios</span></a></li>
-                    <li><a id="ecuaciones" href="/ecuaciones" ><div><img src="https://totumat.files.wordpress.com/2019/11/1-12-ecuaciones-lineales.png?w=810" alt=""></div><span>Ecuaciones</span></a></li>
-                    <li><a id="radicales" href="/radicales" ><div><img src="https://totumat.com/wp-content/uploads/2020/05/0-13-radicales.png?w=810" alt=""></div><span>Radicales</span></a></li>
+                    <li ><a id="inicio" href="/" ><div><img loading="lazy" src="../images/inicio.jpg" alt=""></div><span>Inicio</span></a></li>
+                    <li><a id="polinomios" href="/polinomios" ><div><img loading="lazy" src="https://totumat.files.wordpress.com/2019/11/1-15-polinomios.png?w=810" alt=""></div><span>Polinomios</span></a></li>
+                    <li><a id="ecuaciones" href="/ecuaciones" ><div><img loading="lazy" src="https://totumat.files.wordpress.com/2019/11/1-12-ecuaciones-lineales.png?w=810" alt=""></div><span>Ecuaciones</span></a></li>
+                    <li><a id="radicales" href="/radicales" ><div><img loading="lazy" src="https://totumat.com/wp-content/uploads/2020/05/0-13-radicales.png?w=810" alt=""></div><span>Radicales</span></a></li>
                 </ul>
             </nav>
         </header>
@@ -31,6 +32,7 @@
             
         </section>
     </main>
-    <script src="barraNav.js"></script>
+
+    <script src="js/loader.js"></script>
 </body>
 </html>
