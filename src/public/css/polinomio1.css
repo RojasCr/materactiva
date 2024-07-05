@@ -117,117 +117,12 @@ article li{
 	text-align: center;
 }
 
-/* @media (orientation: portrait) and (max-width: 600px){
+@media (max-width: 600px){
 	
-	ol{
-		
-		
-		max-width: 100%;
-		
-		list-style-type:decimal;
-		
-	}
-	
-	article li{
-		
-		margin-bottom: 0.5vh;
-		
-		
-	}
-	
-	.contenedorPoli{
-		max-width: 100%;
-		
-		display: grid;
-		
-		gap: 2px;
-	}
-	
-	.poli{
-		display: inline;
-		width: 100%;
-	}
-	
-	.lateral{	
-		display: flex;
-		flex-wrap: nowrap;
-		width: 100%;
-		text-align: start;
-		font-size: 80%;
-	}
-	
-	.lateral input{
-		width: 8%;
-		font-size: 80%;
-	}
+    h1{
+        font-size: 6vh;
+        
+        margin: 0;
+    }
+
 }
-
-@media (orientation: landscape) {
-	
-	ol{
-		
-		
-		max-width: 75vh;
-		
-		list-style-type:decimal;
-		padding-left: 4vh;
-	}
-	
-	article li{
-		
-		margin-bottom: 0.5vh;
-		
-		
-	}
-	
-	.contenedorPoli{
-		max-width: 100%;
-		
-		display: grid;
-		
-		gap: 2px;
-	}
-	
-	.poli{
-		display: inline;
-		width: 100%;
-	}
-	
-	.lateral{	
-		display: flex;
-		flex-wrap: nowrap;
-		width: 100%;
-		text-align: start;
-		
-	}
-	
-	.lateral input{
-		width: 8%;
-		font-size: 80%;
-	}
-}
-
-@media (orientation: portrait) and (max-width: 600px){
-  html, body{
-	  max-width: 100%;
-	  max-height: 100%;
-	  margin: 0;
-  
-  }
-  
-  header{
-	  max-width: 100%;
-  }
-  h1{
-	  text-align: center;
-	  margin: 1.5rem 0 1.5rem 0;
-  }
-  
-  article{
-	  max-width: 100%;
-	  max-height: 100%;
-  }
-  
-
-
-} */
