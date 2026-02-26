@@ -12,6 +12,10 @@ app.get("/", (req, res) => {
     res.sendFile(`${process.cwd()}/src/views/inicio.html`);
 });
 
+app.get("/operacionesCombinadas", (req, res) => {
+    res.sendFile(`${process.cwd()}/src/views/operacionesCombinadas.html`);
+});
+
 app.get("/polinomios", (req, res) => {
     res.sendFile(`${process.cwd()}/src/views/polinomios.html`);
 });
